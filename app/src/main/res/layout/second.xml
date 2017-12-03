@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="100"
+    android:background="@color/opaque_back">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&quot;A truly great LIBRARY contains something in it to offend everyone.&quot;"
+        android:id="@+id/quote"
+        android:foregroundGravity="center_horizontal"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:textColor="#f4efefef"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Imgbtnnext"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/nextwel"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>
