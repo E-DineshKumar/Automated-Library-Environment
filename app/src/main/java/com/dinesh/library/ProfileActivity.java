@@ -45,12 +45,7 @@ public class ProfileActivity extends Activity {
                 startActivity(sem);
             }
         });
-
-
         Typeface face = Typeface.createFromAsset(getAssets(),  "fonts/segoeui.ttf");
-
-
-
         name.setTypeface(face);
         batch.setTypeface(face);
         idnumber.setTypeface(face);
