@@ -54,7 +54,6 @@ public class ProfileActivity extends Activity {
         phone.setTypeface(face);
         address.setTypeface(face);
         fine.setTypeface(face);
-
         String user_name = sp.getString("name", "kkkkkkkk");
 
         name.setText(user_name);
