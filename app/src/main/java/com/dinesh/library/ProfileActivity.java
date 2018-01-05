@@ -73,16 +73,6 @@ public class ProfileActivity extends Activity {
         String user_fine = sp.getString("credit", "");
         fine.setText("Credits(fine): "+user_fine);
 
-
-
-
-
-
-
-
-
-
-
     }
     }
 
