@@ -45,11 +45,11 @@ public class ProfileActivity extends Activity {
                 startActivity(sem);
             }
         });
-        //TextView tx = (TextView)findViewById(R.id.tVdob);
+
 
         Typeface face = Typeface.createFromAsset(getAssets(),  "fonts/segoeui.ttf");
 
-        //tx.setTypeface(custom_font);
+
 
         name.setTypeface(face);
         batch.setTypeface(face);
